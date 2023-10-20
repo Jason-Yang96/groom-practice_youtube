@@ -15,14 +15,19 @@
         <div class="header-line_col2">
             <input type="text" placeholder="Search">
             <div id="search-icon-box">
-                <a href="index.html"><img class="header-line_icon" src="assets/icons/search.svg" alt="search"></a>
+                <a href="index.html"><img class="header-line_icon" id="search-icon" src="assets/icons/search.svg" alt="search"></a>
             </div>
-            <a href="index.html"><img class="header-line_icon" src="assets/icons/voice-search-icon.svg" alt="voice-search-icon"></a>
+            <div id="voice-search-icon-circle">
+                <a href="index.html"><img class="header-line_icon" id="voice-search-icon" src="assets/icons/voice-search-icon.svg" alt="voice-search-icon"></a>
+            </div>
         </div>
         <div class="header-line_col3">
             <a href="index.html"><img class="header-line_icon" src="assets/icons/upload.svg" alt="search"></a>
             <a href="index.html"><img class="header-line_icon" src="assets/icons/youtube-apps.svg" alt="search"></a>
-            <a href="index.html"><img class="header-line_icon" src="assets/icons/notifications.svg" alt="search"></a>
+            <a id="notification-count-container" href="index.html">
+                <img class="header-line_icon" src="assets/icons/notifications.svg" alt="search">
+                <div id="notification-count">1</div>
+            </a>
             <a href="index.html"><img class="header-line_icon" src="assets/images/avatars/avatar-1.png" alt="search"></a>
         </div>
     </header>
