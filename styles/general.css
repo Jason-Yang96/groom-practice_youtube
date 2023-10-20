@@ -1,0 +1,6 @@
+@import "/styles/reset.css";
+@import "/styles/header.css";
+
+body {
+    background-color: black;
+}
