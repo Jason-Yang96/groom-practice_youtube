@@ -1,5 +1,6 @@
 @import "/styles/reset.css";
 @import "/styles/header.css";
+@import "/styles/navigation.css";
 
 body {
     background-color: black;
