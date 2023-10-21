@@ -3,7 +3,7 @@
     width: 60px;
     height: 100%;
     position: sticky;
-    top: 35px;
+    /* top: 35px; */
     padding-top: 15px;
 }
 nav div {
@@ -13,5 +13,5 @@ nav div {
 nav span {
     display: block;
     font-size: 7px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
